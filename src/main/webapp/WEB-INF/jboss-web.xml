@@ -1,0 +1,25 @@
+<!DOCTYPE jboss-web PUBLIC
+   "-//JBoss//DTD Web Application 5.0//EN"
+   "http://www.jboss.org/j2ee/dtd/jboss-web_5_0.dtd">
+
+<jboss-web>
+    <context-root>/</context-root>
+<!--
+         <replication-config>
+        <replication-granularity>SESSION</replication-granularity>
+        <cache-name>web.testJDG01</cache-name>
+    </replication-config>
+        <symbolic-linking-enabled>true</symbolic-linking-enabled>
+-->
+        <!--overlay>/WebApp/deploy/simple.war</overlay-->
+<!--
+             <enable-websockets>true</enable-websockets>
+
+ <resource-ref>
+  <res-ref-name>jdbc/PostgresDS</res-ref-name>
+  <res-type>javax.sql.DataSource</res-type>
+  <jndi-name>java:/PostgresDS</jndi-name>
+ </resource-ref>
+-->
+</jboss-web>
+

@@ -1,0 +1,16 @@
+<settings>
+ <mirrors>
+    <mirror>
+          <id>nexus</id>
+          <mirrorOf>*</mirrorOf>
+          <name>Local nexus repository</name>
+          <url>http://nexus-repository-manager-rockplace.apps.wsjeong.ocp4.local/repository/mlbparks-proxy/</url>
+    </mirror>
+    <mirror>
+          <id>nexus_1</id>
+          <mirrorOf>*</mirrorOf>
+          <name>redhat nexus repository</name>
+          <url>http://nexus-repository-manager-rockplace.apps.wsjeong.ocp4.local/repository/mlbparks-redhat/</url>
+    </mirror>
+ </mirrors>
+</settings>
